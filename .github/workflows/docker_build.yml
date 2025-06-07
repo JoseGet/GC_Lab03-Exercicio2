@@ -23,7 +23,7 @@ jobs:
          context: ./
          push: true
          dockerfile: ./Dockerfile   
-         tags: joseget/gc
+         tags: moisesgc/webacademy:latest
  deploy:
    runs-on: ubuntu-latest
    steps:
