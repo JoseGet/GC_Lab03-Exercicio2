@@ -23,7 +23,7 @@ jobs:
          context: ./
          push: true
          dockerfile: ./Dockerfile   
-         tags: JoseGet/GC_Lab03-Exercicio2:latest
+         tags: joseget/gc_lab03-exercicio2:latest
  deploy:
    runs-on: ubuntu-latest
    steps:
